@@ -1,0 +1,65 @@
+/******************************************************************************/
+/*	Page sidebar															  */
+/******************************************************************************/
+
+	.template-page-sidebar.template-page-sidebar-left>.template-page-sidebar-column-left,
+	.template-page-sidebar.template-page-sidebar-right>.template-page-sidebar-column-right
+	{
+		width:300px;
+	}
+	
+	.template-page-sidebar.template-page-sidebar-left>.template-page-sidebar-column-right,
+	.template-page-sidebar.template-page-sidebar-right>.template-page-sidebar-column-left
+	{
+		width:410px;
+	}
+
+/******************************************************************************/
+/*	Main carousel 															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Main carousel / Headers												  */
+	/**************************************************************************/	
+
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h2
+		{
+			font-size:55px;
+		}
+		
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h4
+		{
+			font-size:26px;
+		}
+
+/******************************************************************************/
+/*	Page		 															  */
+/******************************************************************************/
+
+#template-page-box
+{
+	max-width:860px;
+}		
+
+/******************************************************************************/
+/*	Comment																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Comment / Counter box											      */
+	/**************************************************************************/
+
+	.template-page-sidebar .template-comment .template-comment-counter-box
+	{
+		display:none;
+	}
+	
+	/**************************************************************************/
+	/*	Comment / Comment list											      */
+	/**************************************************************************/
+
+	.template-page-sidebar .template-comment .template-comment-list,
+	.template-page-sidebar .template-comment .template-comment-list ul
+	{
+		margin-left:20px;
+	}

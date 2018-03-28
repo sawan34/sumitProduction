@@ -1,0 +1,47 @@
+/******************************************************************************/
+/*	Main carousel 															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Main carousel / Headers												  */
+	/**************************************************************************/	
+
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h2
+		{
+			font-size:36px;
+		}
+		
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h4
+		{
+			font-size:16px;
+			font-weight:400;
+		}
+		
+/******************************************************************************/
+/*	Page																	  */
+/******************************************************************************/
+		
+	/**************************************************************************/
+	/*	Page / Page															  */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/*	Page / Page / Page content										  */
+		/**********************************************************************/
+	
+		#template-page-box #template-page #template-page-content
+		{
+			margin-left:20px;
+			margin-right:20px;
+		}	
+		
+		/**********************************************************************/
+		/*	Page / Page / Page footer										  */
+		/**********************************************************************/
+
+			#template-page-box #template-page .template-page-footer .template-page-footer-top,
+			#template-page-box #template-page .template-page-footer .template-page-footer-bottom
+			{
+				padding-left:20px;
+				padding-right:20px;
+			}

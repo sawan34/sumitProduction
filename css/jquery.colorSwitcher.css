@@ -1,0 +1,256 @@
+/******************************************************************************/
+/*	Base styles																  */
+/******************************************************************************/
+
+#cs .cs-clear-fix:after 
+{
+	height:0;
+	clear:both;
+	content:" ";
+	font-size:0;
+	min-height:0;
+	display:block;
+	visibility:hidden;
+}
+
+* html #cs .cs-clear-fix				{ zoom: 1; } 
+*:first-child+html #cs .cs-clear-fix	{ zoom: 1; }
+
+#cs .cs-relative
+{
+	position:relative;
+}
+
+#cs *
+{
+	box-sizing:border-box;
+}
+
+#cs .cs-infield
+{
+	top:12px;
+	position:absolute;
+}
+
+#cs a
+{
+	border:none;
+}
+
+/******************************************************************************/
+/*	Color																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Color / Text color													  */
+	/**************************************************************************/
+
+	#cs #cs-go-button,
+	#cs #cs-color-value,
+	#cs #cs-reset-button
+	{
+		color:#999999;
+	}
+	
+	.cs-infield
+	{
+		color:#BBBBBB;
+	}
+	
+	/**************************************************************************/
+	/*	Color / Background color											  */
+	/**************************************************************************/
+	
+	#cs
+	{
+		background-color:transparent;
+	}
+	
+	.colpick,
+	.colpick_field, 
+	.colpick_hex_field,
+	#cs #cs-content,
+	#cs #cs-color-value
+	{
+		background-color:#FFFFFF;
+	}
+	
+	/**************************************************************************/
+	/*	Color / Border color												  */
+	/**************************************************************************/
+
+	.colpick,
+	.colpick_field, 
+	.colpick_hex_field,
+	#cs #cs-go-button,
+	#cs #cs-color-value,
+	#cs #cs-reset-button
+	{
+		border-color:#EFEFEF;
+	}
+	
+/******************************************************************************/
+/*	Colorpicker																  */
+/******************************************************************************/
+
+.colpick
+{
+	z-index:100000;
+	border-width:2px;
+	border-style:solid;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	border-top:none;
+}
+
+.colpick_field, 
+.colpick_hex_field
+{
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;	
+}
+
+.colpick_field input, 
+.colpick_hex_field input
+{
+	text-transform:uppercase;
+}
+
+/******************************************************************************/
+/*	Color switcher															  */
+/******************************************************************************/
+
+#cs
+{
+	top:100px;
+	z-index:3;
+	width:50px;
+	right:0px;
+	overflow:hidden;
+	position:absolute;
+}
+
+	/**************************************************************************/
+	/*	Color switcher / Toggle Button										  */
+	/**************************************************************************/
+
+	#cs #cs-toggle-button
+	{
+		top:0;
+		float:left;
+		width:50px;
+		height:50px;
+		display:block;
+		position:absolute;
+	}
+	
+	/**************************************************************************/
+	/*	Color switcher / Content											  */
+	/**************************************************************************/
+	
+	#cs #cs-content
+	{
+		float:left;
+		width:250px;
+		padding:20px;
+		overflow:hidden;
+		margin-left:50px;
+		box-sizing:border-box;
+		-webkit-box-shadow:0px 3px 6px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow:0px 3px 6px 0px rgba(0,0,0,0.1);
+		box-shadow:0px 3px 6px 0px rgba(0,0,0,0.1);
+		border:1px solid rgba(0,0,0,0.1);
+		border-right:none;
+	}
+
+		/**********************************************************************/
+		/*	Color switcher / Content / Color list							  */
+		/**********************************************************************/
+	
+		#cs #cs-color-list
+		{
+			margin:0px;
+			padding:0px;
+			margin-bottom:5px;
+			list-style-type:none;
+		}
+		
+			#cs #cs-color-list li
+			{
+				float:left;
+				margin-right:2px;
+				margin-bottom:2px;
+			}
+			
+			#cs #cs-color-list li:last-child
+			{
+				margin-right:0px;
+			}
+
+				#cs #cs-color-list li a
+				{
+					width:19px;
+					height:19px;
+					display:block;
+				}
+
+				#cs #cs-color-list li a.cs-color-1	{ background-color:#41AB6B; }
+				#cs #cs-color-list li a.cs-color-2	{ background-color:#EEA303; }
+				#cs #cs-color-list li a.cs-color-3	{ background-color:#F06060; }
+				#cs #cs-color-list li a.cs-color-4	{ background-color:#13C7AF; }
+				#cs #cs-color-list li a.cs-color-5	{ background-color:#14C97E; }
+				#cs #cs-color-list li a.cs-color-6	{ background-color:#64BB5D; }
+				#cs #cs-color-list li a.cs-color-7	{ background-color:#A3C6C2; }
+				#cs #cs-color-list li a.cs-color-8	{ background-color:#EB974E; }
+				#cs #cs-color-list li a.cs-color-9	{ background-color:#96A94B; }
+				#cs #cs-color-list li a.cs-color-10	{ background-color:#6EBADA; }
+			
+		/**********************************************************************/
+		/*	Color switcher / Content / Text field							  */
+		/**********************************************************************/				
+				
+		#cs #cs-color-value,
+		.cs-infield
+		{
+			width:100%;
+			cursor:text;
+			font-weight:bold;
+			text-align:center;
+			box-sizing:border-box;
+		}
+				
+		#cs #cs-color-value
+		{
+			margin:0px;
+			padding:10px;	
+			border-width:2px;
+			border-style:solid;
+			text-transform:uppercase;
+		}
+		
+		/**********************************************************************/
+		/*	Color switcher / Content / Button								  */
+		/**********************************************************************/
+		
+		#cs #cs-go-button,
+		#cs #cs-reset-button
+		{
+			width:50%;
+			float:left;
+			padding:10px;
+			display:block;
+			font-size:13px;
+			margin-top:5px;
+			font-weight:bold;
+			text-align:center;
+			border-style:solid;
+			text-transform:uppercase;
+			border-width:2px 2px 2px 2px;
+		}
+		
+		#cs #cs-reset-button
+		{
+			border-right-width:0px;
+		}

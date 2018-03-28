@@ -1,0 +1,35 @@
+/******************************************************************************/
+/*	Post																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Post / Infobar														  */
+	/**************************************************************************/
+	
+		.template-post .template-post-infobar>div
+		{
+			height:100%;
+			width:100%;
+			float:none;
+			clear:both;
+			overflow:hidden;
+			margin-right:0px;
+		}
+		
+		.template-post .template-post-infobar .template-post-infobar-icon,
+		.template-post .template-post-infobar .template-post-infobar-name,
+		.template-post .template-post-infobar .template-post-infobar-value
+		{
+			float:left;
+			margin:0px;
+		}
+		
+		.template-post .template-post-infobar .template-post-infobar-name
+		{
+			margin:5px 10px 0px 10px;
+		}
+		
+		.template-post .template-post-infobar .template-post-infobar-value
+		{
+			font-size:14px;
+		}

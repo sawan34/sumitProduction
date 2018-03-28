@@ -1,0 +1,168 @@
+/******************************************************************************/
+/*	Widget Archive															  */
+/*	Wudget Catgeory															  */
+/******************************************************************************/
+
+ul.template-widget-archive,
+ul.template-widget-category
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+	ul.template-widget-archive>li,
+	ul.template-widget-category>li
+	{
+		width:50%;
+		float:left;
+		margin-bottom:15px;
+		box-sizing:border-box;
+		padding:0px 10px 0px 0px;
+	}
+	
+		ul.template-widget-archive>li>span,
+		ul.template-widget-category>li>span
+		{
+			float:left;
+			width:25px;
+			height:25px;
+			margin-right:15px;
+			background-repeat:no-repeat;
+			background-position:center center;
+		}
+		
+		ul.template-widget-archive>li>span
+		{
+			background-image:url('../images/icon_calendar.png');
+		}
+		
+		ul.template-widget-category>li>span
+		{
+			background-image:url('../images/icon_category.png');
+		}
+		
+/******************************************************************************/
+/*	Latest Post																  */
+/******************************************************************************/
+
+div.template-latest-post
+{
+	
+}
+
+	div.template-latest-post ul.template-latest-post-list
+	{
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+	}
+	
+		div.template-latest-post ul.template-latest-post-list>li
+		{
+			clear:both;
+			overflow:hidden;
+			margin-bottom:30px;
+		}
+		
+			div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-icon
+			{
+				float:left;
+			}
+			
+			div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content
+			{
+				
+			}
+			
+			div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-icon+div.template-latest-post-content
+			{
+				margin-left:80px;
+			}
+			
+				div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content h6
+				{
+					margin-bottom:10px;
+				}
+				
+				div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-date,
+				div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-comment-count 
+				{
+					width:30%;
+					float:left;
+					box-sizing:border-box;
+				}
+				
+				div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-date
+				{
+					width:70%;
+				}
+				
+					div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-date span,
+					div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-comment-count span
+					{
+						float:left;
+						width:25px;
+						height:25px;
+						margin-right:15px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+
+					div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-date span
+					{
+						background-image:url('../images/icon_calendar.png');
+					}
+
+					div.template-latest-post ul.template-latest-post-list>li>div.template-latest-post-content div.template-latest-post-content-comment-count span
+					{
+						background-image:url('../images/icon_comment.png');
+					}
+					
+.logo1 {
+	position:relative;
+	z-index:9999;
+	padding: 26px 10px 16px 12px;
+	max-width:100%;
+	background:#f3d53a;
+	text-align:center;
+}
+.logo1 img {
+	max-width:100%;
+}
+@media (min-width:1240px) and (max-width:1300px) {
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 {
+    font-size: 22px !important;
+	line-height:30px !important;
+}
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 span {
+	margin-bottom:8px !important;
+}
+}
+@media (min-width:1170px) and (max-width:1240px) {
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 {
+    font-size: 26px !important;
+	ine-height:30px !important;
+}
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 span {
+	margin-bottom:8px !important;
+}
+}
+@media (min-width:1024px) and (max-width:1170px) {
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 {
+    font-size: 20px !important;
+	line-height:30px !important;
+}
+#template-main-carousel ul.template-main-carousel > li div.template-vertical-center-inner h4 span {
+	margin-bottom:8px !important;
+}
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+.logo1 {
+	display:none;
+}
+}

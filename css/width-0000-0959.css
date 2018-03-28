@@ -1,0 +1,137 @@
+/******************************************************************************/
+/*	Headers		 															  */
+/******************************************************************************/
+
+h1	
+{ 
+	font-size:36px; 
+}
+h2	
+{ 
+	font-size:28px;
+	font-weight:400;
+}
+h3	
+{ 
+	font-size:18px; 
+}
+h4	
+{ 
+	font-size:16px; 
+}
+h5	
+{ 
+	font-size:15px; 
+}
+
+/******************************************************************************/
+/*	Image																	  */
+/******************************************************************************/
+
+.template-image .template-image-box-hover .template-image-box-hover-title,
+.template-image .template-image-box-hover .template-image-box-hover-subtitle
+{
+	display:none;
+}
+
+/******************************************************************************/
+/*	Page sidebar															  */
+/******************************************************************************/
+	
+	.template-page-sidebar>.template-page-sidebar-column-left,
+	.template-page-sidebar>.template-page-sidebar-column-right
+	{
+		clear:both;
+		float:none;
+	}
+	
+	.template-page-sidebar.template-page-sidebar-left>.template-page-sidebar-column-left,
+	.template-page-sidebar.template-page-sidebar-left>.template-page-sidebar-column-right,
+	.template-page-sidebar.template-page-sidebar-right>.template-page-sidebar-column-left,
+	.template-page-sidebar.template-page-sidebar-right>.template-page-sidebar-column-right
+	{
+		width:100%;
+	}
+	
+	.template-page-sidebar.template-page-sidebar-left>.template-page-sidebar-column-left
+	{
+		margin-bottom:70px;
+	}
+	
+	.template-page-sidebar.template-page-sidebar-right>.template-page-sidebar-column-right
+	{
+		margin-top:70px;
+	}
+	
+/******************************************************************************/
+/*	Comment																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Comment / Counter box											      */
+	/**************************************************************************/
+
+	.template-comment .template-comment-counter-box
+	{
+		display:none;
+	}
+	
+	/**************************************************************************/
+	/*	Comment / Comment list											      */
+	/**************************************************************************/
+
+	.template-comment .template-comment-list
+	{
+		margin-left:0px;
+	}
+	
+	.template-comment .template-comment-list ul
+	{
+		margin-left:20px;
+	}
+	
+	/**************************************************************************/
+	/*	Component / Process List											  */
+	/**************************************************************************/
+
+		ul.template-process-list>li
+		{
+			border:none;
+		}	
+	
+			ul.template-process-list>li>.template-process-list-icon
+			{
+				width:100%;
+			}
+			
+				ul.template-process-list>li.template-process-list-layout-left>.template-process-list-icon>span,
+				ul.template-process-list>li.template-process-list-layout-right>.template-process-list-icon>span
+				{
+					float:none;
+					margin:0px;
+				}
+			
+			ul.template-process-list>li.template-process-list-layout-left>.template-process-list-icon,
+			ul.template-process-list>li.template-process-list-layout-right>.template-process-list-icon
+			{
+				left:0px;
+				right:0px;
+				float:none;
+				position:static;
+			}
+
+			ul.template-process-list>li>.template-process-list-content
+			{
+				clear:both;
+				padding:20px;
+				min-height:100%;
+				border-style:solid;
+				border-color:#EFEFEF;
+				border-width:0px 1px 1px 1px;
+			}
+			
+			ul.template-process-list>li.template-process-list-layout-left>.template-process-list-content,
+			ul.template-process-list>li.template-process-list-layout-right>.template-process-list-content
+			{
+				margin:0px;
+			}

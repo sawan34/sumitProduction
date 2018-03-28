@@ -1,0 +1,18 @@
+/******************************************************************************/
+/*	Main carousel 															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Main carousel / Headers												  */
+	/**************************************************************************/	
+
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h2
+		{
+			font-size:52px;
+		}
+		
+		#template-main-carousel ul.template-main-carousel>li div.template-vertical-center-inner h4
+		{
+			font-size:21px;
+			font-weight:400;
+		}
